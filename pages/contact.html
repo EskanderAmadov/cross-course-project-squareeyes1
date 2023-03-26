@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Contact Us</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="Need something new to watch? Buy and watch all movie you want online with squareeyes!" />
+    <meta name="keywords" content="Movies, watch online,  streaming, rental, download, films, cinema" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="../styling/styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav>
+      <a href="../index.html"><img class="logo" src="../assets/logo_square.png" alt="Picture of the company logo" /></a>
+      <ul class="nav-links nav-links-collapse">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="./all-movies.html">Movies</a></li>
+        <li><a class="active-link" href="#">Contact</a></li>
+        <li><a href="./about.html">About</a></li>
+      </ul>
+      <div class="search-container">
+        <form action="#">
+          <input type="text" placeholder="Search by movie name" name="search" id="searchInput" />
+          <button type="submit" id="searchButton">Search</button>
+        </form>
+      </div>
+      <div class="hamburger-menu menu-toggle">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </nav>
+    <button onclick="topFunction()" id="toTopButton">Top</button>
+    <div class="contact-form-wrapper">
+      <div class="contact-form">
+        <h1>Contact Us</h1>
+        <form action="#">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your name.." required />
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="Your email.." required />
+          <label for="phone">Phone Number</label>
+          <input type="tel" id="phone" name="phone" placeholder="Your phone number.." required />
+          <label for="message">Message</label>
+          <textarea id="message" name="message" placeholder="Write something.." required></textarea>
+          <div class="button">
+            <button type="submit" name="submit">Submit</button>
+          </div>
+        </form>
+      </div>
+      <div id="popup">
+        <span class="close">&times;</span>
+        <p>Your message has been sent successfully!</p>
+      </div>
+    </div>
+    <footer>
+      <p>Copyright © 2023 Amadov</p>
+    </footer>
+    <script src="../script/script.js"></script>
+  </body>
+</html>

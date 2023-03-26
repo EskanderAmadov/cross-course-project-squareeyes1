@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Purchase</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="Need something new to watch? Buy and watch all movie you want online with squareeyes!" />
+    <meta name="keywords" content="Movies, watch online,  streaming, rental, download, films, cinema" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="../styling/styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav>
+      <a href="../index.html"><img class="logo no-left-margin" src="../assets/logo_square.png" alt="Picture of the company logo" /></a>
+      <div class="hamburger-menu menu-toggle">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </nav>
+    <section class="movie-detail-section">
+      <div class="purchase-container">
+        <a class="x-mark-black" href="../pages/all-movies.html">X</a>
+        <div class="payment-info-wrapper">
+          <h2>Credit card number</h2>
+          <p>The 16 degits on the front of your credit card.</p>
+          <input type="text" placeholder="Credit card number" />
+          <h2>Expiration date</h2>
+          <p>The date your credit card expires.</p>
+          <div class="input-container">
+            <input type="number" placeholder="01" /> /
+            <input type="number" placeholder="12" />
+          </div>
+          <div class="payment-info-wrapper">
+            <h2>security code (CVC / CVV)</h2>
+            <p>The last 3 digits displayed on the back of your credit card</p>
+            <input id="security-code" type="number" placeholder="543" />
+          </div>
+          <div class="buttons-container extra-padding">
+            <a class="button-link" href="../pages/movie-detail.html">Back</a>
+            <a class="button-link-filled" href="../pages/purchase-success.html">Purchase</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="../script/script.js"></script>
+  </body>
+</html>

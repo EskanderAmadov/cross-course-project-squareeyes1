@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Movie detail</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="Need something new to watch? Buy and watch all movie you want online with squareeyes!" />
+    <meta name="keywords" content="Movies, watch online,  streaming, rental, download, films, cinema" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="../styling/styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav>
+      <a href="../index.html"><img class="logo" src="../assets/logo_square.png" alt="Picture of the company logo" /></a>
+      <ul class="nav-links nav-links-collapse">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="./all-movies.html">Movies</a></li>
+        <li><a href="../pages/contact.html">Contact</a></li>
+        <li><a class="active-link" href="./about.html">About</a></li>
+      </ul>
+      <div class="search-container">
+        <form action="#">
+          <input type="text" placeholder="Search by movie name" name="search" id="searchInput" />
+          <button type="submit" id="searchButton">Search</button>
+        </form>
+      </div>
+      <div class="hamburger-menu menu-toggle">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </nav>
+    <section class="movie-detail-section">
+      <div class="movie-wrapper">
+        <a class="x-mark" href="../pages/all-movies.html">X</a>
+        <div class="movie-header">
+          <img src="../assets/Square_Eyes_Cover5.jpeg" alt="Cover picture of the movie" />
+        </div>
+        <div class="movie-details">
+          <div class="rating-container">
+            <h2>Intense</h2>
+            <p>8.5</p>
+            <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" fill="yellow" viewBox="0 0 576 512">
+              <path
+                d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"
+              />
+            </svg>
+          </div>
+          <p>Action/Comedy</p>
+          <p>Jenn har washed ashore a small tropical island and it doesn't take her long to realize she's completely alone. She must spen her days only surviving the elements, but must also fend off the malevolent force that comes out each night.</p>
+          <div class="buttons-container">
+            <a class="button-link" href="../pages/purchase-form.html">Buy for $5.99,-</a>
+            <a class="button-link" href="https://www.youtube.com/watch?v=wlJwxYmfSuo" target="_blank">Watch trailer</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <p>Copyright © 2023 Amadov</p>
+    </footer>
+    <script src="../script/script.js"></script>
+  </body>
+</html>
